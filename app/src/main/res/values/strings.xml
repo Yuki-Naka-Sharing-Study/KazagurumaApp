@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KazagurumaApp</string>
+    <string name="description">a guy</string>
+    <string name="button">風車を回転させる</string>
+</resources>

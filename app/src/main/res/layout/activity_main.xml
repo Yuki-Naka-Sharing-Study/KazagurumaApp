@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#668"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="221dp">
+
+        <ImageView
+            android:id="@+id/CrossView"
+            android:layout_width="match_parent"
+            android:layout_height="208dp"
+            android:contentDescription="@string/description"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
+            tools:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <ImageView
+            android:id="@+id/BouView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:srcCompat="@android:drawable/title_bar_tall" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/button"
+        android:textColorHighlight="@android:color/holo_orange_dark"
+        android:textColorLink="@android:color/holo_orange_dark" />
+
+</LinearLayout>
